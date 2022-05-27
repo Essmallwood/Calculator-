@@ -1,0 +1,23 @@
+html{
+
+
+    color: aliceblue;
+    font-weight: bolder;
+    background-color: aqua;
+    background-image: url('https://media1.giphy.com/media/xT0GqcCJJJH12hJvGM/giphy.gif?cid=ecf05e47st6i7md9qc6s3g3a4m8t5mtxsis7n6np8mix7ce3&rid=giphy.gif&ct=g');
+    height: 100%;
+}
+
+#container{
+    height: 455px;
+    width: 350px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 75px 75px 75px 75px;
+   
+    margin: 0 auto;
+    border: 5px solid palevioletred;
+    padding: 50px;
+    
+}

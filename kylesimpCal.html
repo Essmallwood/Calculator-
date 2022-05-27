@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <title>KYLE SIMP Calculater </title>
+    <link rel="stylesheet" href="kylesimpCal.css">
+</head>
+<body>
+   
+    <div id="container">
+     Enter total Bill: <input id="billAmount" class= "input-style" type="number"> 
+     <div class="form-group">
+        <label for="exampleFormControlSelect2">Pick a Rate</label>
+        <select multiple class="form-control" id="exampleFormControlSelect2">
+          <option id="10" onclick="display10()">10%</option>
+          <option id="15" onclick="display15()">15%</option>
+          <option id="20" onclick="display20()">20%</option>
+          <br>
+    
+       <input id="tipPercent" class= "input-style" placeholder="  Enter custom tip" type="number" onclick="displayCustom"></p>
+        </select>
+      </div>
+ 
+    <p id="milkshake"> Total Bill: </p><input id="totalBill" class= "input-style"  type="number"><br>
+
+<button id="btn" onclick="displayTotal">Calculate My Money </button>
+    </div>
+
+
+    <script src="kylesimpCal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>

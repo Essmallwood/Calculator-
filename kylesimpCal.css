@@ -1,0 +1,21 @@
+html{
+
+
+    color: black;
+   
+   background-image: url('https://media0.giphy.com/media/jUwpNzg9IcyrK/giphy.gif?cid=ecf05e47cbldiy4eee435l2z1inwurffllz9li9zfx17s244&rid=giphy.gif&ct=g');
+  color: black;
+    height: 200%;
+}
+
+#container{
+    height: 455px;
+    width: 550px;
+    background-color: yellow;
+    display: grid;
+
+    margin: 0 auto;
+    border: 5px solid black;
+    padding: 50px;
+    
+}
